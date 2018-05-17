@@ -1,0 +1,13 @@
+{
+  "name": "jasmin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/jasmine-xml-reporter/bin/jasmine.js --random=false --junitreport"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-xml-reporter": "^1.2.0"
+  }
+}
